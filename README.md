@@ -1,38 +1,24 @@
-# CI/CD Tools and Practices Final Project Template
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+# CI/CD Final Project
 
-## Usage
+## Project Overview
+This project demonstrates Continuous Integration and Continuous Delivery (CI/CD) using GitHub Actions, Tekton, and OpenShift.
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+## Technologies Used
+- Python
+- Git and GitHub
+- GitHub Actions
+- Flake8
+- Nose testing framework
+- Tekton Pipelines
+- OpenShift
+- Buildah
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+## CI Workflow
+The GitHub Actions workflow automatically installs dependencies, performs code linting using Flake8, and runs unit tests using Nose when changes are pushed or pull requests are created for the main branch.
 
-Name your repo: `ci-cd-final-project`.
+## OpenShift Pipeline
+The Tekton pipeline automates source cleanup, Git cloning, linting, testing, container image building, and application deployment.
 
-## Setup
-
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
-
-```bash
-bash bin/setup.sh
-```
-
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
-
-```bash
-exit
-```
-
-## Tasks
-
-
-## License
-
-Licensed under the Apache License. See [LICENSE](/LICENSE)
-
-## Author
-
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+## Purpose
+To demonstrate an automated CI/CD pipeline that improves code quality, testing, containerization, and application deployment.
