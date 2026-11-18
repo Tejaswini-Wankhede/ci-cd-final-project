@@ -1,3 +1,3 @@
-# CI/CD Tools and Practices Final Project GitHub Action Workflows
+# DevOps Capstone
 
-This directory will contain all the GitHub Action workflows you create in the CI/CD Tools and Practices Final Project.
+![Build Status](https://github.com/Tejaswini-Wankhede/ci-cd-final-project/actions/workflows/ci-build.yaml/badge.svg)
